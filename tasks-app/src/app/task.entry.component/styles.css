@@ -1,0 +1,20 @@
+.task-entry__container {
+  max-width: 500px;
+}
+
+.task-entry__container label {
+  display: block;
+}
+
+.task-entry__name {
+  display: block;
+}
+
+.task-entry__invalid-warning {
+  color: red;
+  font-size: small;
+}
+
+.task-entry__save {
+  display: block;
+}

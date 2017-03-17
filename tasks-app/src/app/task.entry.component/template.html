@@ -1,0 +1,9 @@
+<div>
+    Enter the Task here<br/>
+    <div class="task-entry__container">
+        <label>Task Name</label>
+        <input mdInput type="text" class="task-entry__name" [(ngModel)]="task.task_name" />
+        <span class="task-entry__invalid-warning" *ngIf="!task.task_name">You must enter a task</span>
+        <button [disabled]="!task.task_name" class="success button task-entry__save" (click)="save($event)">Save</button>
+    </div>
+</div>

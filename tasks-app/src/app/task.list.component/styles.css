@@ -1,0 +1,24 @@
+.task-list__container {
+  display: flex;
+  align-content: flex-start;
+  max-width: 600px;
+}
+
+.task-list__task-id {
+  flex-grow: 1;
+  width: 5%;
+}
+
+.task-list__task-name {
+  flex-grow: 1;
+  text-align: left !important;
+  width: 50%;
+}
+
+.task-list__edit {
+  padding-left: 10px;
+}
+
+.task-list__remove {
+  padding-left: 10px;
+}

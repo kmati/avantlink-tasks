@@ -1,0 +1,10 @@
+<div>
+    # of tasks {{tasks.length}}
+    <br/>
+    <div class="task-list__container" *ngFor="let task of tasks">
+        <div class="task-list__task-id">{{task.task_id}}</div>
+        <div class="task-list__task-name">{{task.task_name}}</div>
+        <button class="button task-list__edit" routerLink="/task-entry/{{task.task_id}}">Edit</button>
+        <button class="alert button task-list__remove" (click)="deleteTask(task.task_id)">Remove</button>
+    </div>
+</div>
