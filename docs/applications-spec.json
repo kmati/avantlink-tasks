@@ -1,0 +1,23 @@
+{
+  "POST": {
+    "description": "Get an application id for using the tasks API",
+    "parameters": [],
+    "body": {
+      "first_name": {
+        "required": true,
+        "type": "string",
+        "description": "Your first name"
+      },
+      "last_name": {
+        "required": true,
+        "type": "string",
+        "description": "Your last name"
+      },
+      "email": {
+        "required": true,
+        "type": "string",
+        "description": "Your email"
+      }
+    }
+  }
+}

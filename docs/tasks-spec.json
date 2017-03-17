@@ -1,0 +1,78 @@
+{
+  "GET": {
+    "description": "Get a list of tasks or a specific task",
+    "parameters": {
+      "id": {
+        "required": false,
+        "type": "int",
+        "description": "The id for the task you would like to return"
+      }
+    },
+    "headers": {
+      "Application-ID": {
+        "required": true,
+        "type": "string",
+        "description": "Unique key for your app, see OPTIONS /applications "
+      }
+    }
+  },
+  "POST": {
+    "description": "Insert a new task",
+    "parameters": [],
+    "body": {
+      "name": {
+        "required": true,
+        "type": "string",
+        "description": "name for the task"
+      }
+    },
+    "headers": {
+      "Application-ID": {
+        "required": true,
+        "type": "string",
+        "description": "Unique key for your app, see OPTIONS /applications "
+      }
+    }
+  },
+  "PUT": {
+    "description": "Update a new task",
+    "parameters": {
+      "id": {
+        "required": true,
+        "type": "int",
+        "description": "The id for the task"
+      }
+    },
+    "body": {
+      "name": {
+        "required": true,
+        "type": "string",
+        "description": "name for the task"
+      }
+    },
+    "headers": {
+      "Application-ID": {
+        "required": true,
+        "type": "string",
+        "description": "Unique key for your app, see OPTIONS /applications "
+      }
+    }
+  },
+  "DELETE": {
+    "description": "Delete a new task",
+    "parameters": {
+      "id": {
+        "required": true,
+        "type": "int",
+        "description": "The id for the task"
+      }
+    },
+    "headers": {
+      "Application-ID": {
+        "required": true,
+        "type": "string",
+        "description": "Unique key for your app, see OPTIONS /applications "
+      }
+    }
+  }
+}

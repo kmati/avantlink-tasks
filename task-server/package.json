@@ -1,0 +1,15 @@
+{
+  "name": "task-server",
+  "version": "0.0.1",
+  "description": "Sample task server Express app",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Kimanzi Mati <kmati@nocrunchtime.com> (http://www.nocrunchtime.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "^2.7.1",
+    "express": "*"
+  }
+}

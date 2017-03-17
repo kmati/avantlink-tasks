@@ -1,0 +1,12 @@
+{
+  "name": "api-access",
+  "version": "0.0.1",
+  "description": "API Access for the Task application",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Kimanzi Mati <kmati@nocrunchtime.com> (http://www.nocrunchtime.com)",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
