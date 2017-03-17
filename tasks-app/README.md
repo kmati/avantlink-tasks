@@ -1,4 +1,4 @@
-# TestApp
+# tasks-app
 
 This is the homework app for AvantLink done by Kimanzi Mati.
 
